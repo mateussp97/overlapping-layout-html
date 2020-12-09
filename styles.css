@@ -47,7 +47,20 @@ section {
   color: #fff;
   border-radius: 8px;
   margin-left: -150px; /*!  Overlapping effect */
+  position: relative;
 }
+
+/*! Geometric shape to box overlapping effect 
+  .right::before {
+  content: "";
+  width: 99.8%;
+  height: 5rem;
+  background: #2f3d3c;
+  position: absolute;
+  bottom: -3rem;
+  z-index: 0;
+  transform: skewy(5deg);
+} */
 
 .right h1 {
   font-size: clamp(2.25rem, 3vw, 3.75rem);
