@@ -50,7 +50,8 @@ section {
   position: relative;
 }
 
-/*! .right::before {
+/*! defining a shape with ::before
+.right::before {
   content: "";
   width: 99.8%;
   height: 5rem;
