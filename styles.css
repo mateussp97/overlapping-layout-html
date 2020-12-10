@@ -50,8 +50,7 @@ section {
   position: relative;
 }
 
-/*! Geometric shape to box overlapping effect 
-  .right::before {
+/*! .right::before {
   content: "";
   width: 99.8%;
   height: 5rem;
